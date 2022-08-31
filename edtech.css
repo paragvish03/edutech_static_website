@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
+*{
+    padding: 0px; margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(242, 242, 243, 0.336);
+    color: black;
+    margin: 0px; padding: 0px;
+    
+}
+header{
+    background-color: #0b1216;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+
+}
+.header1{
+    display: inline-block;
+    height: 5vw;
+   
+}
+li{
+    display: inline-block;
+    margin: 20px 18px 0px 0px;
+    
+}
+nav{
+    float: right;
+}
+main{
+    margin: auto;
+    width: 75vw;
+    overflow: hidden;
+}
+.img{
+  z-index: -1;
+  padding-top: 2vw;
+  
+}
+.container{
+    width:77vw;
+    height: 35vw;
+   
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+.container1{
+  
+    width: 85vw;
+    height: 30vw;
+    background-color: rgba(201, 200, 200, 0.164);
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+.cards {
+    width: 20vw;
+    height: 22vw;
+    border: 3px solid rgba(226, 226, 226, 0.863);
+    border-radius: 13px;
+    display: inline-block;
+    background-color:white;
+   font-size: 1.12vw;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 1vw;
+}
+.cards1A{
+    display: flex;
+    justify-content: center;
+}
+.cards:hover{
+    transform: scale(1.08);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+    
+
+.cards2{
+    border-radius: 13px;
+    background-color: rgba(201, 200, 200, 0.164);
+    width: 100vw;
+    height: 30vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3vw;
+   
+}
+.cards2A{
+   
+    width: 33vw;
+    height: 24vw;
+    display: inline-block;
+    overflow: hidden;
+}
+.cards2B{
+    
+    width: 60vw;
+    height: 28vw;
+    display: inline-block;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.partner{
+    width: 70vw;
+    margin: auto
+}
+footer{
+    height: 2.5vw;
+    position: sticky;
+    bottom: 0vh;
+    margin-top: 3vw;
+    
+}
+
+
+.fly{
+    float: right;
+    width: 9vw;
+    height: 2vw;
+    background-color: white;
+    border: 3px solid rgb(51, 50, 50);
+    border-radius: 11vw;
+    margin-left: 2vw;
+    padding: 0vw 0px 0px 1vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width:500px){
+body{
+    background-color: aquamarine;
+}
+.container1 {
+  
+    width: 88vw;
+    height: 32vw;
+    background-color: rgba(201, 200, 200, 0.164);
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+.cards {
+    width: 24vw;
+    height: 27vw;
+    border: 3px solid rgba(226, 226, 226, 0.863);
+    border-radius: 13px;
+    display: inline-block;
+    background-color: white;
+    font-size: 1.12vw;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 1vw;
+}
+.cards2 {
+    border-radius: 13px;
+    background-color: rgba(201, 200, 200, 0.164);
+    width: 100vw;
+    height: 43vw;
+}
+.cards1B{
+    font-size: 163%;
+
+}
+    .cards2B{
+    
+        width: 70vw;
+        height: 30vw;
+        display: inline-block;
+        font-size: 2.24vw;
+        text-align: justify;
+    } 
+    main {
+        /* margin: auto; */
+        width: 50vw;
+        /* overflow: hidden; */
+    }
+   }
+
+
+           .container3 {
+            font-size: large;
+            height: 300px;
+            margin-left: 50px;
+            border-radius: 12px;
+            border: 1px solid rgb(189, 184, 184);
+            display: inline-block;
+            padding: 10px 10px 10px 10px;
+
+
+        }
+        textarea{
+            border: 1px solid rgb(189, 184, 184);   
+            outline: none;
+        }
+        p{
+            display: inline;
+        }
+
+        input {
+            padding: 0px 10px 0px 10px;
+            border: .8px solid rgb(189, 184, 184);
+            margin: 8px;
+            height: 25px;
+            outline: none;
+            font-size: 15px;
+        }
+        input[type=text]:focus {
+ 
+  border: 2px solid  #007aff;
+}
+   a{
+    text-decoration: none;
+    color: white;
+   }
+
+        .submit{
+            background-color: #007bffee;
+            height: 30px;
+            width: 85px;
+            padding: 1px 1px 2px 1px;
+           
+            font-weight: 800;
+            border: 0px;
+            border-radius: 5px;
+        }
+        .submit:hover{
+            background-color: #007bffcb;
+        }
+        .submit:active{
+            background-color: #007aff;
+        }
+        .content{
+            position: absolute;
+            display: none;
+            height:30vh;
+            width:30%;
+            background-color: rgba(255, 140, 0, 0.411);
+        }
+        .nav:hover .content{
+            display: block;
+        }
+
+        @media screen and (max-width:603px){
+            p{
+            display: block;}
+        }
